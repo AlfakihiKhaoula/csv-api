@@ -24,9 +24,11 @@ public class Produit {
     private String description;
     private String prix;
 
+
     public Produit(String nom, String description, String prix) {
         this.nom = nom;
         this.description = description;
         this.prix = prix;
     }
+
 }
